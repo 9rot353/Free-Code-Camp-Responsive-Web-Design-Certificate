@@ -1,0 +1,70 @@
+@import url(//fonts.googleapis.com/css?family=Patrick+Hand+SC|Bangers|Happy+Monkey);
+
+body {
+margin:0px;  
+color: white;
+background-image: url("https://i.ibb.co/mHqN3Wh/spider-web-vector-26611556.jpg");
+background-position: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+header {
+margin-top: 0px;
+text-align: center;
+font-family: 'Bangers';
+}
+
+h4 {
+  
+}
+
+figure {
+height: auto;  
+}
+
+figcaption {
+font-size: 70px;  
+}
+
+img {
+height: 80%;
+width: 60%;
+max-width: 444px;
+max-height: 250px;
+box-shadow: -0px 0px 5px white;
+}
+
+main {
+max-width: 70%;
+margin: auto;
+}
+
+ul {
+display: flex;
+flex-direction: column;
+margin-bottom: 50px;  
+text-align:center;
+}
+
+li {
+text-align: left; 
+font-size: 20px;
+margin: 10px 0px;
+text-align: justify;
+list-style-type: none;
+background-color: blue;
+border-radius: 5px;
+}
+
+footer {
+text-align: center;
+height: 10vh;
+margin: 5vh;
+font-size: 25px;
+}
+
+main {
+text-align: center;  
+}

@@ -1,0 +1,112 @@
+body{
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    }
+    
+    header {
+    margin-bottom: 25px;
+    }
+    
+    h1 {
+    margin-bottom: 0px; 
+    text-transform: capitalize;
+    }
+    
+    h2 {
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    }
+    
+    .box-container {
+    background-color: rgb(20, 75, 255, 0.8);
+    width: 50%;
+    height:100%;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px black solid;
+    }
+    
+    /* Form instructions */
+    form {
+    width: 80%;
+    text-align: left;
+    position: relative;
+    left: 10%;
+    /* border: 2px solid gold; */
+    }
+    
+    .form-header{
+    color: white;
+    font:;
+    }
+    
+    
+    input{
+    border-radius: 5px;  
+    width: 100%;
+    height: 30px;
+    margin-bottom:20px;
+    margin-top: 5px;
+    position: relative;
+    left:;
+    }
+    
+    /* input[placeholder]{
+    color:black;  
+    } */
+    
+    Select {
+    border-radius: 5px;  
+    width: 100%;
+    min-height: 35px;
+    background-color: white;
+    margin-bottom: 20px;
+    }
+    
+    
+    .radio {
+    height: 15px;
+    position: relative;
+    left: -230px;
+    top: 35px;
+    
+    }
+    
+    .checkboxes {
+      height:15px;
+      position: relative;
+      left: -230px;
+      top: 40px;
+    }
+      
+      textarea {
+      height: 100px;
+      width: 100%;
+      }
+    
+    .submit{
+     margin-top: 30px;
+     width: 100%;
+     background-color: green;
+     height: 50px;
+     border-radius: 5px;
+    }
+    
+    label {
+    text-transform: capitalize;  
+    }
+    /* Responsive instructions */
+    
+    @media (max-width: 600px) {
+    .box-container
+      {
+        width: 80%;
+         
+      } 
+    }
+    
+    
+    
+    

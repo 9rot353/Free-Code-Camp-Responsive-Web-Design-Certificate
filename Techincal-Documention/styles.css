@@ -1,0 +1,161 @@
+body {
+    margin: 0px;  
+  }
+    
+p,li,li,ul,pre {
+    color: #4d4e53  
+  }
+    
+aside {
+    text-align: left;
+    width: 250px;
+    border: 3px solid black;
+    height: 100%; 
+    position: fixed;
+    top: 0; 
+    left: 0;
+    /*  background-color: */
+    overflow-x:hidden;
+    padding-top: 20px;
+  }
+    
+    
+.aside-heading {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+    
+    .aside-link {
+    border: 3px solid black;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    width: 100%;
+  }
+    
+    
+.bottom-aside {
+    border-top:2px solid black;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+    
+h2 {
+    font-size: 15px;
+  }
+    
+    /* Main instructions */
+    
+.main-container {
+    max-width: 75%;
+    padding: 0px;
+    text-align: justify;
+    margin-left: 250px;
+    position: relative;
+    left: 15px;
+  }
+    
+.main-header {
+     margin-bottom: 20px;
+     font-size: 30px;   
+}
+    
+li {
+    position: relative;
+    left: 25px;
+    margin-bottom: 15px;
+    max-width: 95%;
+    text-align: justify;
+}
+    
+.example-box {
+    text-align: left; 
+    background-color: #eee;
+    border-radius: 10px;
+    height: 50px;
+    overflow: scroll;
+}
+    
+code {
+    position: relative; 
+    left: 10px;
+    top: 15px;
+}
+    
+@media only screen and (max-width: 370px) {
+
+h2 {
+    font-size: 15px;  
+  }
+
+aside {
+    text-align: left;
+    width: 100px;
+    border: 3px solid black;
+    height: 100%; 
+    position: fixed;
+    top: 0; 
+    left: 0;
+    /*  background-color: */
+     overflow-x:hidden;
+     padding-top: 20px;
+}
+       
+.aside-heading {
+    text-align: left;
+    margin-left:px;
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 100%;
+    /* border: undifined  */
+  }
+       
+.aside-link {
+    border: 3px solid black;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    display: block;
+    width: 100%;
+  }
+       
+.bottom-aside {
+    border-top:2px solid black;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+
+.main-container {
+    min-width:270;
+    max-width:60%;
+    padding: 0px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right:0px;
+    position: relative;
+    /* left:; */
+  }
+    
+.main-header {
+    margin-bottom: 20px;
+    font-size: 20px; 
+  }
+    
+li {
+    position: relative;
+    left: 5px;
+    margin-bottom: 15px;
+    max-width: 95%;
+    text-align: justify;
+  }
+       
+    }

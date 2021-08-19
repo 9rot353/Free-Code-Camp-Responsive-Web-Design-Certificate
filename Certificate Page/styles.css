@@ -1,0 +1,43 @@
+body {
+    /*mozilla*/
+    background: linear-gradient(135deg, #F0F0F0 49%, transparent 49%),
+      linear-gradient(225deg, #F0F0F0 49%, #12879B 49%, #12879B 51%, transparent 51%),
+      linear-gradient(135deg, transparent 51%, #F0F0F0 51%);
+      background-size: 7px 7px;
+      background-color: #12879B;
+    
+    
+  }
+
+  figcaption{
+      text-align: center;
+      font-size: 20px;
+      font-weight:200px
+  }
+
+  ul {
+   text-align:center;   
+  }
+
+ 
+  
+  li {
+
+   display: inline-block;
+   list-style-type:none;   
+   margin: 15px;
+   padding: 2px;
+   min-width: 300px;
+   
+  }
+
+  
+  @media only screen and (-width: 800px) {
+    
+
+    li {
+    display: block; 
+    margin: none;
+    }
+
+  }

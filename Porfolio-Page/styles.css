@@ -49,6 +49,9 @@ text-align: center;
 font-family: 'Oswald', sans-serif;
 font-size: 20px;
 color: white;
+border-top: 2px white solid;
+border-bottom: 2px white solid;
+margin:10px 0px 10px 0px;
 }
 
 footer {

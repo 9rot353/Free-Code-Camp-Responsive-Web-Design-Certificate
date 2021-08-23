@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 body{
-    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background: linear-gradient(
+    147deg
+    , rgb(255, 255, 255) 50%, rgb(255, 255, 255) 57%, rgba(103, 128, 159, 1) 50%);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+
     }
     
+    .container {
+    text-align:center;  
+    display: block;
+    width:65%;
+    margin:auto;
+    }
+    
+    .rating {
+     margin-top: 10px 
+    }
+
     header {
     margin-bottom: 25px;
     }
@@ -12,47 +28,74 @@ body{
     h1 {
     margin-bottom: 0px; 
     text-transform: capitalize;
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
     }
     
     h2 {
     margin-top: 0px; 
     margin-bottom: 0px;
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    }
+
+    #number{
+     min-width:110px;
     }
     
-    .box-container {
-    background-color: rgb(20, 75, 255, 0.8);
-    width: 50%;
-    height:100%;
-    margin: auto;
-    border-radius: 10px;
-    border: 2px black solid;
+    stronger {
+     font-weight: 200; 
     }
+   
     
     /* Form instructions */
     form {
-    width: 80%;
+    width:100%;
     text-align: left;
-    position: relative;
-    left: 10%;
-    /* border: 2px solid gold; */
+    box-sizing: border-box;
+    border: 1px solid rgb(241, 245, 246);
+    border-radius: 0px 0px 4px 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(28 47 58 / 20%) -2px 3px 13px 0px;
+    padding: 23px 17px 35px;
+    margin-bottom: 133px;
+    font-family:'Poppins', sans-serif
     }
     
     .form-header{
-    color: white;
-    font:;
+    color: black;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
     }
     
-    
+    legend{
+    font-family:'Poppins', sans-serif;
+    }
+
+    #email {
+     width:100%; 
+    }
+
     input{
     border-radius: 5px;  
-    width: 100%;
     height: 30px;
     margin-bottom:20px;
     margin-top: 5px;
-    position: relative;
-    left:;
+    
     }
     
+   .checkboxes {
+     position:relative;
+     top: 11px;
+     right:0px;
+     
+     text-align:left;
+   }
+
+   .rating {
+    text-align:center;
+   }
+
     /* input[placeholder]{
     color:black;  
     } */
@@ -67,25 +110,16 @@ body{
     
     
     .radio {
-    height: 15px;
-    position: relative;
-    left: -230px;
-    top: 35px;
-    
+    position:relative;
+    top: 11px;
     }
-    
-    .checkboxes {
-      height:15px;
-      position: relative;
-      left: -230px;
-      top: 40px;
+   
+  
+    textarea {
+    height: 100px;
+    width: 100%;
     }
-      
-      textarea {
-      height: 100px;
-      width: 100%;
-      }
-    
+  
     .submit{
      margin-top: 30px;
      width: 100%;
@@ -94,17 +128,16 @@ body{
      border-radius: 5px;
     }
     
-    label {
-    text-transform: capitalize;  
-    }
-    /* Responsive instructions */
-    
-    @media (max-width: 600px) {
-    .box-container
+   
+    Responsive instructions */
+     
+    @media only screen and (max-width: 600px)  (min-width: 800px) {
+
+    .container
       {
-        width: 80%;
-         
-      } 
+        width: 55%;
+      }
+      
     }
     
     

@@ -10,27 +10,42 @@ img {
     width: 30px;
 }
     
+
+
+.opening{
+    margin-top:100px;
+    font-size: 26px;
+    text-transform:capitalize;
+}
+ 
 h2 {
     display: inline-block;
-    font-size: 25px;
-    margin: 0px;
+    font-size: 30px;
+    
 }
+ 
 
 ul {
     display: inline-block; 
     position: absolute;
     right: 2px;
 }
+
+p {
+  text-align:center;
+  font-size:25px;
+}
     
     
 nav {
     position:fixed;
     width: 100%;
-    background-color: white;
-    margin: 0px;
-    padding: 0px;
+    background-color:orange;
     top: 0px;
     z-index: 1;
+    box-shadow: 2px 2px 20px 2px ;
+    border-bottom: solid black 1px;
+    height:80px;
 }
 
 .header-nav li {
@@ -39,13 +54,18 @@ nav {
     font-size: 25px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top:2.5%;
+    color:black;
 }
     
 h1 {
-    positon: relative;
-    margin-top: 100px;
+
+        display: inline-block;
+        font-size: 30px;
+        position:relative;
+        bottom: 29px;
+        text-transform: capitalize;
 }
-    
     /* end of header instructions */
     
     
@@ -61,24 +81,20 @@ div {
     text-align: center;
 }
 
-h1 {
-    font-size: 23px; 
-    text-transform: capitalize;
-}
+
     
 input {
     border: 2px solid black;
     border-radius: 3px;
-    display:;
-    height: 30px;
-    position:;
-    left: auto;
+    height: 40px;
+    width:100%;
+    
 }
 
 button {
-    display: ;
-    height: 30px;
-    border-radius: 3px;
+    
+    height: 40px;
+    border-radius: 5px;
     background-color: orange;
 }
 
@@ -95,9 +111,9 @@ form {
     justify-content: center;
     display: grid;  
     grid-template-columns: 1fr 7fr;
-    grid-template rows: 50px;
+   
     /* add hyphen see what difference it makes */
-    grid-gap: 40px;
+    grid-gap: 60px;
     width: 65%;
     position: relative;
     left: 20%;
@@ -121,6 +137,7 @@ img {
 .grid-p {
     margin: 0px;
     padding: 0px;
+    text-align:left;
 }
     
 .content-box {
@@ -135,41 +152,42 @@ img {
     /* Youtube Video Instructions */
 iframe {
     position: relative;
-    left: 27%;
-    margin-top: 50px;
-    justify-content: center;
+    margin-top: 100px;
+    
 }
 
     /* flex box instructions */
     
 .flex-box {
-     height: 45vh:;
-     width: ;
      position: relative;
      margin:auto;
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
      text-align: center;
      line-height: 30px
 }
       
 .flex-box h2 {
-    background-color: gray;
+    background-color: orange;
     width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    margin-top:0px;
 }
     
 .flex-item {
     margin: 50px;
     border: 1px solid black;
     width: 60%;
+    border-radius: 20px;
 }
     
 .flex-button {
-    background-color: yellow;
-    min-height: 40px;
-    min-width: 60px;
-    max-width: 100px;
-    max-height: 100px;
+    background-color: orange;
+    font-size:17px;
+    font-weight:bold;
+    border-radius:5px;
+    width:70px;
+    height:40px;
 }
     
     /* footer instructions */
@@ -178,39 +196,35 @@ iframe {
 }
 
 footer {
-    width: 75%;
     height: 10vh;
-    background-color: gray;
+    background-color: black;
     position: relative;
-    left: 10%;
+    
 }
     
 footer li {
     float: right;  
     list-style-type: none;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 28px;
     text-transform: capitalize;
+    color:orange
 }
     
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
 .flex-box {
+    text-align:center;
        display: flex;
-       flex-direction: column;
-       width: 100%;
-       position: relative;
-       left: 20%;
+       flex-direction: row;
+      
+     
 }
       
 iframe {
-      width: 450px;
-      postion: relative; 
-      left: 20%;
+      
+      position: relative; 
+      
       /* fix position see what it does. */
 }
       
-li {
-      float: right;
-}
-
     }

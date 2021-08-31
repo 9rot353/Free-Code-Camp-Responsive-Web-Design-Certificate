@@ -1,0 +1,17 @@
+
+.nav{
+  background-color:gray;
+
+}
+
+ul {
+ text-align:right;
+ 
+  
+}
+
+li {
+margin: 3px;
+display: inline-block;   
+list-style-type:none;   
+}

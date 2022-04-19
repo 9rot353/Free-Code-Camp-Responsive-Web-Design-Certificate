@@ -254,6 +254,7 @@ font-size: 30px;
 footer h3 {
   font-family: 'Nunito', sans-serif;
   color: black;
+  margin-top: 10px;
 
 }
 footer {
@@ -268,9 +269,9 @@ text-align: right;
 }
 
 .footer-links {
+ 
  text-align:center; 
  font-family: 'Oswald', sans-serif;
- border: 1px solid black;
 }
 
 .center {
@@ -280,7 +281,7 @@ text-align: right;
 .footer-links img {
 
  padding:0px;
- margin:0px;
+ margin-top:10px;
  max-width: 20%;
  max-width:10%;
 }

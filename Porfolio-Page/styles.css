@@ -167,19 +167,23 @@ font-weight:bolder;
   margin-bottom: 0px;
   text-align: center;
   font-size: 50px;
+ font-family: 'Oswald', sans-serif;
 }
 .certification-box {
   text-align: center;
   display: flex;
   flex-direction: row;
+  
   /* border: 1px black solid; */
 }
 .certification-box img {
   box-shadow: none;
   border-radius: 10px;
-  min-width: 100%;
+  min-width: 50%;
+  max-width: 80%;
   min-height: 100%;
   z-index: 0;
+  box-shadow: 2px 2px 8px
 }
 .certification-box img:hover {
   transform: translate(0px, -30px);
@@ -195,6 +199,7 @@ font-weight:bolder;
   text-align: center;
   font-size: 50px;
   margin-top: 30px;
+  font-family: 'Oswald', sans-serif;
 }
 .langs-box {
   text-align: center;
@@ -206,13 +211,18 @@ font-weight:bolder;
   box-shadow: none;
   border-radius: 10px;
   z-index: 0;
-  min-width: 20%;
-  max-width: 50%;
+  min-width: 25%;
+  max-width: 80px;
+  height: 50%;
+  box-shadow: 2px 2px 8px
 }
 .langs-box img:hover {
   z-index: 0;
 }
 
+.image-enlarge {
+  max-width: 1000px; important
+}
 /* end of css code for certification-box */
 
 .action-container{
@@ -241,6 +251,11 @@ font-size: 30px;
 }
 
 /* css code for footer */
+footer h3 {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+
+}
 footer {
 border-top: 2px red solid;
 height: 100px;
@@ -248,7 +263,6 @@ width: 100%;
 bottom: 0px;
 background-color: #303841;
 color: white;
-position: relative;
 text-transform: capitalize;
 text-align: right;
 }
@@ -256,24 +270,24 @@ text-align: right;
 .footer-links {
  text-align:center; 
  font-family: 'Oswald', sans-serif;
- /* border: solid black; */
+ border: 1px solid black;
 }
 
-.footer-links li {
-text-align:center; 
-color: white;
-text-transform: capitalize;
- transition: transform .2s;
-position: relative;
-left: 5px;
-float: left;
+.center {
+  text-align:center;
 }
 
-.footer-links li:hover {
+.footer-links img {
+
+ padding:0px;
+ margin:0px;
+ max-width: 20%;
+ max-width:10%;
+}
+.footer-links img:hover {
 background-color: white;
-color:#303841;
 border-radius: 5px;
-transform: translateY(-8px);
+transform: translate(8px);
 /* transform: skewY(-10deg); */
 }
 
